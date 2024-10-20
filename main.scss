@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  } 
+
+.yusuf-section{
+    background-color: #FFF1C9;
+    height: 1200px;
+    clip-path: polygon(100% 0, 100% 69%, 0 100%, 0 0);
+
+    input {
+        width: 100%;
+        border: none;
+        border-radius: 50px;
+        height: 90px;
+        padding-right: 40px;
+        padding-left: 1300px;
+    }
+
+    header {
+        padding-top: 50px;
+
+       .case-img{
+            display: flex;
+            justify-content: center;
+            margin-top: -75px;
+        }
+      
+    }
+
+    .case1 {
+        display: flex;
+        justify-content: center;
+
+        h2 {
+            color: #F9B800;
+        }
+
+        h1 {
+            color: #262626;
+            font-size: 56px;
+        }
+
+        .case-draw {
+            margin-top: -100px;
+        }
+    }
+
+    .cases {
+        margin-top: 100px;
+    }
+
+    .message {
+         margin-top: 50px;
+         display: flex;
+         gap: 20px;
+         width: 610px;
+         flex-wrap: wrap;
+
+        div {
+            background-color: white;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+        }
+
+        .div1 {
+            width: 200px;
+            height: 50px;
+        }
+        
+        .div2 {
+            width: 240px;
+            height: 50px;
+        }
+
+        .div3 {
+            width: 280px;
+            height: 50px;
+        }
+        
+        .div4 {
+            width: 220px;
+            height: 50px;
+        }
+
+        .div5 {
+            width: 240px;
+            height: 50px;
+        }
+
+        .div6 {
+            width: 300px;
+            height: 50px;
+        }
+    }
+
+    .case-button button {
+        width: 290px;
+        height: 70px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        gap: 40px;
+        border: none;
+        background-color: #F9B800;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    .case-button {
+        margin-top: -100px;
+        margin-left: 40px;
+    }
+  }
+
+  header {
+    .case-flag {
+        display: flex;
+        justify-content: end;
+        margin-top: -45px;
+        margin-right: 70px;
+    }
+  }
+
+  .case-button button:hover {
+    background-color: #ff7300;
+  }
