@@ -1,16 +1,256 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  .container {
-    width: 1400px;
-    margin: 0 auto;
-  }
-  
-  body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.yusuf-section {
+  background-color: #FFF1C9;
+  height: 1200px;
+  clip-path: polygon(100% 0, 100% 69%, 0 100%, 0 0);
+}
+.yusuf-section input {
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  height: 90px;
+  padding-right: 40px;
+  padding-left: 1300px;
+}
+.yusuf-section header {
+  padding-top: 50px;
+}
+.yusuf-section header .case-img {
+  display: flex;
+  justify-content: center;
+  margin-top: -75px;
+}
+.yusuf-section .case1 {
+  display: flex;
+  justify-content: center;
+}
+.yusuf-section .case1 h2 {
+  color: #F9B800;
+}
+.yusuf-section .case1 h1 {
+  color: #262626;
+  font-size: 56px;
+}
+.yusuf-section .case1 .case-draw {
+  margin-top: -100px;
+}
+.yusuf-section .cases {
+  margin-top: 100px;
+}
+.yusuf-section .message {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  width: 610px;
+  flex-wrap: wrap;
+}
+.yusuf-section .message div {
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+.yusuf-section .message .div1 {
+  width: 200px;
+  height: 50px;
+}
+.yusuf-section .message .div2 {
+  width: 240px;
+  height: 50px;
+}
+.yusuf-section .message .div3 {
+  width: 280px;
+  height: 50px;
+}
+.yusuf-section .message .div4 {
+  width: 220px;
+  height: 50px;
+}
+.yusuf-section .message .div5 {
+  width: 240px;
+  height: 50px;
+}
+.yusuf-section .message .div6 {
+  width: 300px;
+  height: 50px;
+}
+.yusuf-section .case-button button {
+  width: 290px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border: none;
+  background-color: #F9B800;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.yusuf-section .case-button {
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+header .case-flag {
+  display: flex;
+  justify-content: end;
+  margin-top: -45px;
+  margin-right: 70px;
+}
+
+.case-button button:hover {
+  background-color: #ff7300;
+}
+
+.my_first_section {
+  background-color: #262626;
+  clip-path: polygon(100% 0, 100% 69%, 0 90%, 0 18%);
+  height: 2100px;
+  padding-top: 500px;
+  margin-top: -378px;
+}
+.my_first_section .section_of_lorem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.my_first_section .section_of_lorem .magna_of_vitae {
+  margin-top: 10px;
+}
+.my_first_section .section_of_lorem .magna_of_vitae h1 {
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.my_first_section .section_of_lorem .magna_of_vitae p {
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+.my_first_section .section_of_lorem .lorem_with_h {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 162px;
+  background-color: #FFFFFF;
+  border-radius: 60px;
+}
+.my_first_section .section_of_lorem .lorem_with_h button {
+  border: none;
+  background-color: #FFFFFF;
+  margin-right: 50px;
+}
+.my_first_section .section_of_lorem .lorem_with_h h5 {
+  font-size: 24px;
+  color: #262626;
+  padding-left: 50px;
+}
+.my_first_section .section_of_lorem .lorem_with_h p {
+  font-size: 19px;
+  color: #262626;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+.my_first_section .section_of_lorem .lorem_with_h img {
+  width: 30px;
+  height: 4px;
+}
+.my_first_section .section_of_lorem .only_tag_h {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 80px;
+  background-color: #FFFFFF;
+  border-radius: 60px;
+}
+.my_first_section .section_of_lorem .only_tag_h button {
+  border: none;
+  background-color: #FFFFFF;
+  margin-right: 50px;
+}
+.my_first_section .section_of_lorem .only_tag_h h5 {
+  font-size: 23px;
+  color: #262626;
+  padding-left: 50px;
+}
+.my_first_section .section_of_lorem .only_tag_h img {
+  width: 25px;
+  height: 25px;
+}
+
+.foot_of_work {
+  background-color: #FFE18B;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 45%);
+  height: 1000px;
+  padding-top: 600px;
+  margin-top: -660px;
+}
+.foot_of_work .coopyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.foot_of_work .coopyright p {
+  font-size: 18px;
+  color: #262626;
+}
+.foot_of_work .solid_border {
+  border-bottom: 1px solid rgba(38, 38, 38, 0.1215686275);
+  margin-top: 150px;
+}
+.foot_of_work .end_of_foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot_of_work .end_of_foot h1 {
+  font-size: 40px;
+  color: #262626;
+  margin-left: 110px;
+}
+.foot_of_work .end_of_foot .lorem_of_button_with_arrow {
+  margin-right: 110px;
+}
+.foot_of_work .end_of_foot .lorem_of_button_with_arrow button {
+  width: 290px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border: none;
+  background-color: #F9B800;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.foot_of_work .end_of_foot .lorem_of_button_with_arrow button:hover {
+  background-color: #ff7300;
+}
+
+/*# sourceMappingURL=main.css.map */
