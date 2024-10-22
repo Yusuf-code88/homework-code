@@ -229,3 +229,272 @@
         }
     }
   }
+
+
+
+.first_box{
+    height: 2133px;
+    background-color: #262626;
+    clip-path: polygon(100% 0, 100% 69%, 0 100%, 0 19.5%);
+    display: flex;
+    justify-content: space-between; 
+    margin-top: -415px;
+}
+
+h5{
+    color: gold;
+    padding-bottom: 50px;
+  }
+
+h1{
+    color: white;
+    padding-bottom: 50px;
+  }
+
+  .sentences{
+    padding-top: 800px;
+  }
+.first_box{
+
+    display: flex;
+    justify-content: center;
+    div{
+        button{
+            padding: 15px 0;
+            border-radius: 20px;
+            width: 200px;
+            width: 290px;
+            height: 70px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            gap: 40px;
+        }
+      }
+}
+  
+ .ayan_box{
+   
+    width: 250px;
+   height: 250px;
+background-color:white;
+border-radius: 30px;
+padding-left: 30px;
+margin-left: 450px;
+margin-top: -500px;
+
+    h1{
+        color: black;
+    }
+    img{
+        padding: 15px 0;
+        }
+
+     h2{
+            padding: 10px 0;
+     }
+ }
+ .ayan_second_box{
+    width: 250px;
+    height: 250px;
+    background-color: gold;
+    border-radius: 30px;
+padding-left: 30px;
+margin-left: 800px;
+margin-top: -180px;
+
+    h1{
+        color: black;
+    }
+    img{
+        padding: 15px 0;
+        }
+
+     h2{
+            padding: 10px 0;
+     }
+ }
+
+.ayan_third_box{
+    width: 250px;
+    height: 250px;
+    background-color: gold;
+    border-radius: 30px;
+padding-left: 30px;
+margin-left: 450px;
+
+
+    h1{
+        color: black;
+    }
+
+    img{
+        padding: 15px 0;
+        }
+
+     h2{
+            padding: 10px 0;
+     }
+}   
+.ayan_fourth_box{
+    width: 250px;
+    height: 250px;
+    background-color:white;
+   border-radius: 30px;
+   margin-left: 300px;
+   margin-top: -80px;
+   padding-left: 30px;
+
+    h1{
+        color: black;
+    }
+
+    img{
+        padding: 15px 0;
+       }
+
+       h2{
+        padding: 10px 0;
+    }
+    }
+
+ .ayan_box{
+    img{
+    padding: 15px 0;
+    }
+ }
+
+ 
+ .small_dot{
+    margin-top: -60px;
+    margin-left: 10px;
+    width: 4px;
+    height: 4px;
+    background-color: yellow;
+    border-radius: 50%;
+ }
+
+ .second_small_dot{
+    margin-top: -60px;
+    margin-left: 10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: white;
+ }
+
+ .second_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1250px;
+    height: 552px;
+    border-radius: 100px;
+    position: relative;
+    margin-top: -580px;
+    background-color: #FFFFFF;
+    z-index: 1;
+
+    .picture_of_man {
+
+        img {
+            width: 362px;
+            height: 362px;
+        }
+    }
+
+    h1 {
+        font-size: 40px;
+        color: #262626;
+    }
+
+    p {
+        font-size: 24px;
+        color: #262626;
+        margin-top: 10px;
+    }
+
+    h5 {
+        font-size: 20px;
+        color: #262626;
+        margin-top: 20px;
+    }
+
+
+    button {
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+
+ }
+
+.last_section {
+    background-color: #F9B800;
+    clip-path: polygon(100% 0, 100% 69%, 0 100%, 0 33%);
+    height: 2000px;
+    padding-top: 600px;
+    margin-top: -635px;
+
+    h1{
+        padding-top: 200px;
+        color: #262626;
+        font-size: 45px;
+    }
+}
+
+.shell {
+    display: flex;
+    justify-content: center;
+    }
+
+    .last_six_div {
+        width: 570px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        div {
+            background-color: white;
+            border-radius: 30px;
+            height: 50px;
+            padding:15px ;
+            gap: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       
+    }
+
+    .last_button{
+
+margin-top: 100px;
+   
+               button{
+                   padding: 15px 0;
+                   border-radius: 20px;
+                   width: 200px;
+                   width: 290px;
+                   height: 70px;
+                   border-radius: 50px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;    
+                   gap: 40px;
+                   background-color: #262626;
+                   border: none;
+                   color: white;
+               }
+   
+           }
+
+           .last {
+            display: flex;
+            justify-content: center;
+
+            .las2{
+                margin-top: 150px;
+            }
+           }
